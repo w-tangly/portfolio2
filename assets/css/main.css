@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.uptitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.title{
+    padding-top: 12px;
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.txt{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.btn{
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--background);
+    background-color: var(--green);
+    border-radius: 3px;
+}

@@ -1,0 +1,30 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    max-width: 1216px;
+    justify-self: center;
+}
+
+.aboutmetitle{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--green);
+}
+
+.aboutmetxt{
+    font-size: 1.5rem;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:auto;
+    width: 1216px;
+}
+
+.item{
+}
