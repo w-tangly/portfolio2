@@ -6,11 +6,12 @@ header{
     margin: 2rem;
 }
 
-.logo{
+.logo a{
     font-family: Fira Code;
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--green);
+    cursor: pointer;
 }
 
 ul{

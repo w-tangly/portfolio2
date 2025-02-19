@@ -31,3 +31,9 @@ main{
     background-color: var(--green);
     border-radius: 3px;
 }
+
+.btn:hover{
+    color: var(--green);
+    border: solid var(--green) 2px;
+    background-color: var(--background);
+}
