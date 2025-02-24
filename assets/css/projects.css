@@ -1,0 +1,17 @@
+.projects{
+    margin: 9.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.ptitle{
+    color: var(--green);
+    font-size: 32px;
+    font-weight: 400;
+}
