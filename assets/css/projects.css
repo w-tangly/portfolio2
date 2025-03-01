@@ -8,6 +8,9 @@
 
 .grid{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 1rem;
 }
 
 .ptitle{
@@ -15,3 +18,53 @@
     font-size: 32px;
     font-weight: 400;
 }
+
+.gridItem{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectname{
+    font-size: 24px;
+}
+
+.projecttxt{
+    font-size: 18px;
+    color: var(--green);
+}
+
+.btnrow{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.btnrow a{
+    border: solid 2px var(--green);
+    background-color: var(--green);
+    color: var(--background);
+    border-radius: 4px;
+    padding: 10px 40px;
+}
+
+.btnrow a:hover{
+    border: solid 2px var(--green);
+    color: var(--green);
+    background-color: var(--background);
+}
+
+a.git{
+    border: solid 2px var(--green);
+    color: var(--green);
+    background-color: var(--background);
+    border-radius: 4px;
+    padding: 10px 40px;
+}
+
+a.git:hover{
+    border: solid 2px var(--green);
+    background-color: var(--green);
+    color: var(--background);
+}
+   
