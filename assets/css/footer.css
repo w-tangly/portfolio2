@@ -1,0 +1,14 @@
+footer{
+    background-color: var(--secondary-background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 2.5rem 0;
+}
+
+.footertxt span{
+    color: var(--green);
+}

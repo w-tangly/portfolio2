@@ -1,0 +1,18 @@
+.skill {
+    background-color: var(--secondary-background);
+    width: 11rem;
+    height: 9.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill .info img {
+    padding: 0;
+}
+
+.skill .info {
+    padding: 0;
+}
