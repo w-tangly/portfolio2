@@ -13,12 +13,6 @@
     padding: 1rem;
 }
 
-.ptitle{
-    color: var(--green);
-    font-size: 32px;
-    font-weight: 400;
-}
-
 .gridItem{
     gap: 1rem;
     display: flex;

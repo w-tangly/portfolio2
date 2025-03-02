@@ -1,0 +1,38 @@
+.services{
+    justify-content: center;
+    align-items: center;
+    margin: 9.5rem;
+}
+
+.servicesrow{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.service{
+    background-color: var(--secondary-background);
+    width: 24rem;
+    height: 15rem;
+    border-bottom:2px solid var(--green);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.info img{
+    padding-bottom: 2rem;
+}
+
+.info{
+    padding-left: 2.5rem;
+    max-width: 175px;
+}
+
+.servicetitle{
+    font-size: 32px;
+    font-weight: 500;
+    -webkit-text-stroke: .5px var(--border);
+}
